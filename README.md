@@ -15,13 +15,13 @@ Here are some instructional videos that you can view to know more about Tuffix a
 
 # Instructions
 Follow the steps listed below to complete this lab exercise.
-1.  Make a copy of this Github repository on your computer using the git command. Provide the clone command and a URL to specify where it can get a copy of the repository. You can find the URL by clicking on the green *clone or download* button at the top right part of this page. Copy the URL and replace the dummy text shown below.
-
-   ```
-   git clone <place URL here>
-   ```
- Make sure that the shared clipboard of VirtualBox is set to *Bidirectional* to allow you to easily copy and paste text between your host operating system and your virtual machine.
-  ![Setting shared clipboard to bidirectional](https://raw.githubusercontent.com/CSUF-CPSC121-2018F01-04/labex1/master/screenshots/Shared%20clipboard.png?token=AAU0CfpIIyiAVj5nK0w8ytC8GJmH83Z2ks5bjrFTwA%3D%3D)
+1.  Make sure that the shared clipboard of VirtualBox is set to *Bidirectional* to allow you to easily copy and paste text between your host operating system and your virtual machine.
+ ![Setting shared clipboard to bidirectional](https://raw.githubusercontent.com/CSUF-CPSC121-2018F01-04/labex1/master/screenshots/Shared%20clipboard.png?token=AAU0CfpIIyiAVj5nK0w8ytC8GJmH83Z2ks5bjrFTwA%3D%3D)
+1. Make a copy of this Github repository on your computer using the `git` command. Add the `clone` command and a URL to specify where it can get a copy of the repository. You can find the URL by clicking on the green *Clone or download* button at the top right part of this page. Copy the URL and replace the dummy text shown below. When you hit <kbd>Enter</kbd> it will ask you to provide your Github username and password. Provide the information to start the cloning process. Once done, you will have a copy of the repository on your computer.
+ 
+    ```
+    git clone <place URL here>
+    ```
 1. Navigate into your labex1 folder using the command line. Take note that this will vary per user because the folder name is based on your Github username. The example below assumes the user's username is Tuffy. Replace it with your own folder name. Take note that you can type the first few letters of the folder name and press <kbd>Tab</kbd> so that it auto completes the folder name for you.
 
     ```
@@ -49,8 +49,13 @@ Follow the steps listed below to complete this lab exercise.
     ```
     git commit
     ```
+1. In case it asks you  to configure global variables for an email and name, just copy the commands it provides then replace the dummy text with your email and Github username.
+
+    ```
+    git config --global user.email "tuffy@csu.fullerton.edu"
+    git config --global user.name "Tuffy Titan"
+    ```
 1. Git will ask you to describe what you have added to the staging area. By default, you will use a command-line based editor called *nano*. Go ahead and provide a description then press <kbd>Ctrl</kbd> + <kbd>x</kbd> to exit. Finally press <kbd>Y</kbd> to confirm that you want to make changes.
-1. In case it asks you for an email and username, just copy and paste the command then replace the dummy text with your email and Github username.
 1. Finally, lets push all changes to the Github repository using git push.
 
     ```
