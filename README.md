@@ -16,7 +16,7 @@ Here are some instructional videos that you can view to know more about Tuffix a
 # Instructions
 Follow the steps listed below to complete this lab exercise.
 1.  Make sure that the shared clipboard of VirtualBox is set to *Bidirectional* to allow you to easily copy and paste text between your host operating system and your virtual machine.
- ![Setting shared clipboard to bidirectional](https://raw.githubusercontent.com/CSUF-CPSC121-2018F01-04/labex1/master/screenshots/Shared%20clipboard.png?token=AAU0CfpIIyiAVj5nK0w8ytC8GJmH83Z2ks5bjrFTwA%3D%3D)
+ ![Setting shared clipboard to bidirectional](https://www.dropbox.com/s/szet7dsy2118mmo/Shared%20clipboard.png?raw=1)
 1. Open the Terminal in Tuffix through the Whisker menu.
 1. Make a copy of this Github repository on your computer using the `git` and `clone` commands that you will input to the terminal. The commands take a URL as a parameter to specify where it can get a copy of the repository. You can find the URL by clicking on the green *Clone or download* button at the top right part of this page.
      
