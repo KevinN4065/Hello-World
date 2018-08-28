@@ -1,6 +1,6 @@
 # Lab exercise 1 objectives
 1. Navigate and explore Tuffix, a Linux environment.
-2. Write C++ on the Atom editor.
+2. Write C++ code on the Atom editor.
 3. Navigate the Linux file system using a command line interface (CLI).
 4. Compile C++ code.
 5. Run compiled code (executable files).
@@ -17,11 +17,12 @@ Here are some instructional videos that you can view to know more about Tuffix a
 Follow the steps listed below to complete this lab exercise.
 1.  Make a copy of this Github repository on your computer using the git command. Provide the clone command and a URL to specify where it can get a copy of the repository. You can find the URL by clicking on the green *clone or download* button at the top right part of this page. Copy the URL and replace the dummy text shown below.
 
-    ```
-    git clone <place URL here>
-    ``` 
-
-1. Navigate into your labex1 folder using the command line. Take note that this will vary per user because the folder name is based on your Github username. The example below assumes the user's username is Tuffy. Replace it with your own folder name. A short cut is typing the first few letters of the folder name, then pressing <kbd>Tab</kbd> so that it auto completes the folder name for you.
+   ```
+   git clone <place URL here>
+   ```
+ Make sure that the shared clipboard of VirtualBox is set to *Bidirectional* to allow you to easily copy and paste text between your host operating system and your virtual machine.
+  ![Setting shared clipboard to bidirectional](https://raw.githubusercontent.com/CSUF-CPSC121-2018F01-04/labex1/master/screenshots/Shared%20clipboard.png?token=AAU0CfpIIyiAVj5nK0w8ytC8GJmH83Z2ks5bjrFTwA%3D%3D)
+1. Navigate into your labex1 folder using the command line. Take note that this will vary per user because the folder name is based on your Github username. The example below assumes the user's username is Tuffy. Replace it with your own folder name. Take note that you can type the first few letters of the folder name and press <kbd>Tab</kbd> so that it auto completes the folder name for you.
 
     ```
     cd labex1-tuffy
